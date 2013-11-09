@@ -10,3 +10,7 @@ It uses [Reflection.js for jQuery](http://www.digitalia.be/software/reflectionjs
 2. Extract the containing folder "**AvatarReflection**" into the plugins folder of your esoTalk installation (*esoTalk/addons/plugins/*)
 3. Enable the plugin in admin panel
 4. Done
+
+### Screenshot
+---------------------------------------
+![Screenshot](http://666kb.com/i/cj40fmby4rsmie0en.png)
