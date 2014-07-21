@@ -9,14 +9,15 @@ ET::$pluginInfo["AvatarReflection"] = array(
 	"author" => "ciruz",
 	"authorEmail" => "me@ciruz.net",
 	"authorURL" => "http://www.ciruz.net",
-	"license" => "MIT"
+	"license" => "MIT",
+	"dependencies" => array("esoTalk" => "1.0.0g4")
 );
 
 class ETPlugin_AvatarReflection extends ETPlugin{
 
 	public function handler_init(){
-		ET::$controller->addJSFile($this->getResource("reflection.js"));
-		ET::$controller->addCSSFile($this->getResource("reflection.css"));
+		ET::$controller->addJSFile($this->resource("reflection.js"));
+		ET::$controller->addCSSFile($this->resource("reflection.css"));
 	}
 
 }
