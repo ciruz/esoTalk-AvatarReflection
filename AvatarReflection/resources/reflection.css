@@ -9,11 +9,14 @@ div.post .avatar .avatar{
 	background:transparent;
 }
 
+.avatar{
+	border-radius: 0;
+}
+
 /* reset default styles */
 #memberProfile .avatar{
 	border: none;
 	-webkit-box-shadow: none;
 	box-shadow: none;
-	border-radius: 0;
 	background:transparent;
 }
